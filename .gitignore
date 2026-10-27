@@ -1,0 +1,31 @@
+# Python environments and generated caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Generated applications and build output
+/build/
+/dist/
+*.exe
+
+# Local review history and UI test profiles (retain on disk)
+/review-baseline/
+/review-changes.diff
+/tests/ui-runtime/
+/tests/portable-runtime/
+/tests/config-test-*/
+*.log
+
+# Local credentials and editor/OS state
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
