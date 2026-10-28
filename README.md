@@ -60,3 +60,7 @@ The build script checks prerequisites without installing packages. It creates `d
 Tests intercept keyboard, display, registry, launcher and uninstall effects. `python tests\ui_smoke.py` opens an isolated real UI fixture with intercepted actions and registry writes; its preferences/logs stay in `tests\ui-runtime`, and it exits after ten minutes or tray Quit. It does not use your normal app preferences.
 
 See [IMPLEMENTATION.md](IMPLEMENTATION.md) for the plan, verification evidence, known limits and source-baseline location. Live lock/sleep behavior, physical monitor hotplug, install/uninstall, and protected-process exclusions need manual confirmation.
+
+## License
+
+Licensed under the [MIT License](LICENSE). Copyright (c) 2026 David Seibold.
